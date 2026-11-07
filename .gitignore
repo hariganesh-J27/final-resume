@@ -1,0 +1,6 @@
+# dependencies are installed locally, never committed
+node_modules/
+
+# macOS and tool files
+.DS_Store
+.claude/

@@ -16,6 +16,18 @@ python3 -m http.server 5199
 
 then visit http://localhost:5199. (Needs internet for fonts and the GSAP / Lenis CDN scripts.)
 
+## Deploy (GitHub + Vercel)
+
+This is a plain static site: no build step. `vercel.json` tells Vercel exactly that
+(`framework: null`, output = the repo root), so it never runs Vite even though
+`package.json` lists it for local use. `node_modules/` is git-ignored — never commit it.
+
+```bash
+git add -A
+git commit -m "Update portfolio"
+git push origin main        # Vercel redeploys automatically on every push
+```
+
 ## Make it yours
 
 | What | Where |

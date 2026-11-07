@@ -1,0 +1,17 @@
+{
+  "name": "fake",
+  "version": "1.0.0",
+  "description": "A scroll-driven portfolio: cream hero with drifting dust, a cycling ghost word, a constellation burst and a portrait reveal; a dark glowing timeline; a 5-stage tech pipeline over an aurora background; certificate marquees; a pinned horizontal projects section; contact form; giant-name footer.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "vite"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "vite": "^8.3.6"
+  }
+}
